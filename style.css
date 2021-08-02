@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.tools{
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.content{
+    height: calc(100vh-100px);
+}
+
+#canvas{
+    /* height: 100%;
+    width: 100%;
+    background-color: beige; */
+}
