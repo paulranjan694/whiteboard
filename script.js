@@ -1,7 +1,9 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
+// object destructuring
 let {top:topOffSet} = canvas.getBoundingClientRect();
+
 canvas.height = window.innerHeight - topOffSet;
 canvas.width = window.innerWidth;
 
