@@ -17,12 +17,6 @@ body{
     height: calc(100vh-100px);
 }
 
-#canvas{
-    /* height: 100%;
-    width: 100%;
-    background-color: beige; */
-}
-
 .toolbox{
     display: flex;
     justify-content: space-evenly;
@@ -30,9 +24,105 @@ body{
 }
 
 .tool{
-    height: 45px;
+    height: 50px;
+    position: relative;
 }
 
 .tool img{
     height: 100%;
 }
+
+.tool-options{
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 65px;
+    left: -51px;
+    border-radius: 8px;
+}
+
+.pencil-colors{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pencil-colors div{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.black{
+    background-color: black;
+}
+
+.green{
+    background-color: #29d829;
+}
+
+.hide{
+    display: none;
+}
+
+.active-tool{
+    background: lightgray;
+    height: 60px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+/* .sticky{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    border: 1px solid lightgray;
+}
+
+.sticky-header{
+    background: aliceblue;
+    height: 36px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.minimise{
+    height: 22px;
+    width: 22px;
+    border-radius: 10px;
+    margin-right: 5px;
+    background: lightgreen;
+}
+
+.close{
+    height: 22px;
+    width: 22px;
+    border-radius: 10px;
+    margin-right: 5px;
+    background: lightcoral;
+}
+
+.sticky-content{
+
+}
+
+#sticky-box{
+    outline: none;
+    border: none;
+} */
+

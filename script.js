@@ -36,6 +36,8 @@ canvas.addEventListener("mousedown",function(e){
         'id': 'md',
         'x' : x,
         'y' : y,
+        strokeStyle : ctx.strokeStyle,
+        lineWidth : ctx.lineWidth,
     };
 
     points.push(point);
@@ -51,6 +53,8 @@ canvas.addEventListener("mousemove",function(e){
             'id': 'mv',
             'x' : x,
             'y' : y,
+            strokeStyle : ctx.strokeStyle,
+            lineWidth : ctx.lineWidth,
         };
         points.push(point);
         ctx.stroke();

@@ -10,11 +10,23 @@
 <body>
     <div class="tools">
         <div class="toolbox">
-            <div class="tool">
+            <div class="tool active-tool" id="pencil">
                 <img src="./resourses/Black_Pencil.svg" alt="">
+                <div class="tool-options hide" id="pencil-options">
+                    <input type="range" name="" id="pencilSize" value="1" min="1" max="40">
+                    <div class="pencil-colors">
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="black"></div>
+                        <div class="green"></div>
+                    </div>
+                </div>
             </div>
-            <div class="tool">
+            <div class="tool" id="eraser">
                 <img src="./resourses/Eraser.svg" alt="">
+                <div class="tool-options hide" id="eraser-options">
+                    <input type="range" name="" id="eraserSize" value="1" min="1" max="40">
+                </div>
             </div>
             <div class="tool">
                 <img src="./resourses/StickyNote.svg" alt="">
@@ -36,6 +48,16 @@
     <div class="content">
         <canvas id="canvas"></canvas>
     </div>
+
+    <!-- <div class="sticky">
+        <div class="sticky-header">
+            <div class="minimise"></div>
+            <div class="close"></div>
+        </div>
+        <div class="sticky-content">
+            <textarea id="sticky-box" rows="10" cols="30"></textarea>
+        </div>
+    </div> -->
     <script src="./script.js"></script>
     <script src="./tools.js"></script>
 </body>
