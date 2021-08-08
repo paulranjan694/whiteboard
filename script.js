@@ -65,8 +65,8 @@ canvas.addEventListener("mouseup",function(e){
     isPenDown = false;
     pointsDB.push(points);
 
-console.log(pointsDB);
-console.log(redoPointsDB);
+// console.log(pointsDB);
+// console.log(redoPointsDB);
 });
 
 
