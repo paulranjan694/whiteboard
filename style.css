@@ -128,3 +128,9 @@ body{
     border: none;
 }
 
+.photo{
+    height: 250px;
+    object-fit: contain;
+    width: 100%;
+}
+
