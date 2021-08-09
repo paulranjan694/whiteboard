@@ -8,6 +8,7 @@ let eraserOptions = document.querySelector("#eraser-options");
 let penColors = document.querySelectorAll(".pencil-colors div");
 let pencilSize = document.querySelector("#pencilSize");
 let eraserSize = document.querySelector("#eraserSize");
+let pencilColorSelected = document.querySelector("#pencil-color-selected");
 
 // ctx.lineWidth = 2;
 
@@ -42,6 +43,12 @@ for(let i = 0; i<penColors.length; i++){
         }
     });
 }
+
+// pencilColorSelected.addEventListener("change", function(){
+//     console.log("pencil color");
+//     let colorSelected = pencilColorSelected.value;
+//     ctx.strokeStyle = colorSelected;
+// });
 
 pencil.addEventListener('click', function(){
     console.log("pencil");
@@ -86,6 +93,7 @@ undo.addEventListener('click', function(){
     let latestLine = pointsDB.pop();
     redoPointsDB.push(latestLine);
     clearCanvas();
+    // bgColorReDraw(color);
     drawPoints();
 });
 

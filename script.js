@@ -8,6 +8,9 @@ let points = [];
 // redo points DB
 let redoPointsDB = [];
 
+// bgcolor
+let color="white";
+
 
 // object destructuring
 let {top:topOffSet} = canvas.getBoundingClientRect();
@@ -18,7 +21,9 @@ canvas.width = window.innerWidth;
 window.addEventListener('resize', function(){
     canvas.height = window.innerHeight - topOffSet;
     canvas.width = window.innerWidth;
+    // bgColorReDraw(color);
     drawPoints();
+
 });
 
 let isPenDown = false;
@@ -65,8 +70,8 @@ canvas.addEventListener("mouseup",function(e){
     isPenDown = false;
     pointsDB.push(points);
 
-// console.log(pointsDB);
-// console.log(redoPointsDB);
+console.log(pointsDB);
+console.log(redoPointsDB);
 });
 
 
