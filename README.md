@@ -1,6 +1,6 @@
 # WhiteBoard
 
-An JS web app used to write in whiteboard and latter anyone can download his/her notes as image. 
+An JS web app used to write in whiteboard and later anyone can download his/her notes as image. 
 
 ## Tech Used
 
