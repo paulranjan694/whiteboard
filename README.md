@@ -6,9 +6,9 @@ An JS web app used to write in whiteboard and latter anyone can download his/her
 
 HTML5, CSS3, JS, Canvas API
 
-##Screenshots
+## Screenshots
 
-![Alt text](https://drive.google.com/file/d/1DiD4h5Ppq_6kYTR7IoNMytumS2J7J-T0/view?usp=sharing)
+![Screenshot](screenshot-paulranjan694.github.io-2021.10.31-00_29_40.png)
 
 ## Live URL
 
